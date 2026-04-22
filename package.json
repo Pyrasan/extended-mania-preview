@@ -1,0 +1,24 @@
+{
+  "name": "extended-mania-preview",
+  "version": "1.0.0",
+  "description": "osu!mania beatmap difficulty preview app",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "pack": "electron-builder --dir"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^41.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.maniapspre",
+    "productName": "ExtendedManiaPreview",
+    "win": {
+      "target": "portable"
+    }
+  }
+}
